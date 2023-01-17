@@ -1,0 +1,12 @@
+{
+  "name": "pokedox",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  }
+}
